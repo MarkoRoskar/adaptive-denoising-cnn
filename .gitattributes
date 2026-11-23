@@ -1,2 +1,2 @@
-# Exclude the exported notebook from GitHub language stats
-report.html linguist-documentation
+# Exclude the notebook from GitHub language stats
+report.ipynb linguist-documentation

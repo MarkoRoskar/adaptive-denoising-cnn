@@ -6,6 +6,10 @@ Built as a university image-processing assignment.
 
 ## Results
 
+![Clean, noisy and denoised test images](assets/denoising_example.png)
+
+*Left to right: clean image, image with additive noise, network output.*
+
 Evaluated on 1000 freshly generated test images per noise type (noise std drawn uniformly
 from 0.1–0.3 of the intensity range):
 
@@ -60,7 +64,7 @@ All training and test data is synthetic, generated on the fly:
 | `generate_image.py`   | Synthetic test image generator                                 |
 | `generate_noise.py`   | Additive and multiplicative Gaussian noise                     |
 | `generate_dataset.py` | Builds (noisy, clean) pairs and saves them as `.pt` files      |
-| `report.html`         | Exported Jupyter notebook with the full run, figures and results (in Slovenian) |
+| `report.ipynb`        | Jupyter notebook with the full run, figures and results (in Slovenian) |
 
 ## Usage
 
