@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+
+# generated datasets and trained models (large, reproducible)
+*.pt
+*.pth
+
+.ipynb_checkpoints/
+.vscode/

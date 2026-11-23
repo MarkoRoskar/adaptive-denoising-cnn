@@ -1,0 +1,2 @@
+# Exclude the exported notebook from GitHub language stats
+report.html linguist-documentation
